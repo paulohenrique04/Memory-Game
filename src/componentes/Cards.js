@@ -42,7 +42,7 @@ function Cards() {
     ]
 
     function check(current){
-        if(items[current].id == items[prev].id){
+        if(items[current].id === items[prev].id){
             items[current].stat = "correct"
             items[prev].stat = "correct"
             setItems([...items])
